@@ -27,16 +27,14 @@
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #406aff 15.43%,
+    #3bace2 50.63%
   );
 }
 
 .active {
   color: #fff;
-  padding: 1rem;
+  padding: .5rem;
   border-radius: 100%;
 }
 
