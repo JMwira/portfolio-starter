@@ -10,16 +10,16 @@ const Nav = () => (
         <Link activeClass='active' spy={true} smooth to="home" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
           <BiHomeAlt/>
         </Link>
-        <Link activeClass='active' spy={true} smooth to="about" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+        <Link activeClass='active' spy={true} smooth offset={-50} to="about" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
           <BiUser/>
         </Link>
-        <Link activeClass='active' spy={true} smooth to="services" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+        <Link activeClass='active' spy={true} smooth offset={-50} to="services" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
           <BsClipboardData/>
         </Link>
-        <Link activeClass='active' spy={true} smooth to="work" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+        <Link activeClass='active' spy={true} smooth offset={-50} to="work" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
           <BsBriefcase/>
         </Link>
-        <Link activeClass='active' spy={true} smooth to="contact" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+        <Link activeClass='active' spy={true} smooth offset={-50} to="contact" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
           <BsChatSquareText/>
         </Link>
       </div>
